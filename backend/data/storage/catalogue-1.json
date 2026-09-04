@@ -1,0 +1,37 @@
+{
+  "published_at": "2026-09-04T18:56:51.483341+00:00",
+  "shows": [
+    {
+      "category": "Education",
+      "id": 1,
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "seasons": [
+        {
+          "episodes": [
+            {
+              "content_group": "orbit-1",
+              "description": "A tour of our cosmic neighborhood.",
+              "duration": 24,
+              "languages": [
+                "English",
+                "Hindi"
+              ],
+              "number": 1,
+              "title": "The Solar System"
+            }
+          ],
+          "number": 1,
+          "title": "First Light"
+        }
+      ],
+      "section": "Kids",
+      "synopsis": "Curious lessons from beyond the atmosphere.",
+      "title": "Orbit School",
+      "trailers": []
+    }
+  ],
+  "version": 1
+}

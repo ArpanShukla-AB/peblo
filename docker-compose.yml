@@ -1,0 +1,18 @@
+services:
+  api:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      STORAGE_PATH: /app/data/storage
+    volumes:
+      - catalogue_data:/app/data
+  cms:
+    build: ./cms
+    ports: ["5173:5173"]
+    depends_on: [api]
+  viewer:
+    build: ./viewer
+    ports: ["5174:5173"]
+    depends_on: [api]
+volumes:
+  catalogue_data:
